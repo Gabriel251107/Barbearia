@@ -97,13 +97,20 @@ main{
 form{
   margin: 40px 0;
 }
-form label{
+form label, form p{
   display: block;
   font-size: 20px;
   margin-bottom: 10 px;
 }
 
-form input{
+.input-padrao{
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+div2{
   display: block;
   margin-bottom: 20px;
   padding: 10px 25px;
