@@ -105,14 +105,11 @@ form label, form p{
 
 .input-padrao{
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding: 10px 25px;
   width: 50%;
 }
 
-div2{
-  display: block;
-  margin-bottom: 20px;
-  padding: 10px 25px;
-  width: 50%;
+.checkbox{
+  margin: 20px 0;
 }

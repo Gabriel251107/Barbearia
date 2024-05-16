@@ -36,32 +36,51 @@
       <label for="email">
         E-MAIL:
       </label>
-      <input class="input-padrao" type="text" id="email">
+      <input class="input-padrao" type="email" id="email">
 
       <label for="telefone">
         TELEFONE:
       </label>
-      <input class="input-padrao" type="text" id="telefone">
+      <input class="input-padrao" type="tel" id="telefone">
 
       <label for="mensagem">
         Mensagem
       </label>
       <textarea class="input-padrao" cols="100" rows="10" id="mensagem">
       </textarea>
-      <div2>
+      <div>
         <p>
           como prefere nosso contato?
         </p>
-        <label for="radio-email">email
-          <input type="radio" name="contato" value="email" id="radio-email">
+        <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">email</label>
 
-          <label for="radio-telefone">telefone
-            <input type="radio" name="contato" value="telefone" id="radio-telefone">
 
-            <label for="radio-whatsapp">Whatsapp
-              <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
-      </div2>
-      <label>gostaria de receber nossas ofertas por e-Mail.?<input type="checkbox"></label>
+        <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">telefone
+        </label>
+
+
+        <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp"
+            id="radio-whatsapp">Whatsapp</label>
+
+      </div>
+      <p>
+        Qual horário prefere ser atendido?
+      </p>
+
+      <select>
+        <option>manhã</option>
+        <option>tarde</option>
+        <option>noite</option>
+      </select>
+
+
+
+
+
+
+
+
+      <label><input type="checkbox">gostaria de receber nossas ofertas por e-Mail?</label>
 
 
       <input type="submit" value="ENVIAR O FORMULÁRIO">
