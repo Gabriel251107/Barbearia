@@ -32,9 +32,7 @@ p {
   color: #FF0000;
 }
 
-img {
-  border: inset red 5px;
-}
+
 
 .texto-centralizado {
   text-align: center;
@@ -56,4 +54,7 @@ img {
 
 h2 {
   text-align: center;
+}
+footer{
+  background: black;
 }
