@@ -188,8 +188,24 @@ padding: 3em 0;
 }
 imagens-beneficios{
   width: 50%;
+  opacity: 0.6;
 }
 .mapa-conteudo{
   margin: 0 0 2em;
   text-align: center;
 }
+/*
+main > p{
+  background: #8888888;
+}
+img + p{
+  background: #8888888;
+}
+img ~ p {
+  background: #8888888;
+}
+
+.principal p:not(#missao){
+  background: #8888888;
+}
+/*
